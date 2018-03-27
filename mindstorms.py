@@ -16,14 +16,6 @@ def draw_art():
 	for _ in range(36):
 		draw_square(brad)
 		brad.right(10)
-	
-	# Create the turtle Angie - Draw a Circle
-	"""
-	angie = turtle.Turtle()
-	angie.color("blue")
-	angie.shape("arrow")
-	angie.circle(100)
-	"""
 
 	window.exitonclick()
 
